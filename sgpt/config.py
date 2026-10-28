@@ -35,7 +35,7 @@ DEFAULT_CONFIG = {
     "API_BASE_URL": os.getenv("API_BASE_URL", "default"),
     "PRETTIFY_MARKDOWN": os.getenv("PRETTIFY_MARKDOWN", "true"),
     "USE_LITELLM": os.getenv("USE_LITELLM", "false"),
-    "SHELL_INTERACTION": os.getenv("SHELL_INTERACTION ", "true"),
+    "SHELL_INTERACTION": os.getenv("SHELL_INTERACTION", "true"),
     "MARKDOWN_LIVE_VERTICAL_OVERFLOW": os.getenv(
         "MARKDOWN_LIVE_VERTICAL_OVERFLOW", "visible"
     ),
